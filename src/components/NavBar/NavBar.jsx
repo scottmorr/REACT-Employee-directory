@@ -5,7 +5,7 @@ import './style.css'
 function NavBar() {
     return <div className="navbar">
       
-      <h1> Employee Directory</h1>
+      <h1> Employee Directory By Last Name</h1>
       
       
        {/*  <Link to="/">Home</Link>

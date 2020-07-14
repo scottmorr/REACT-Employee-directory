@@ -4,7 +4,7 @@ import './style.css'
 
 function Footer() {
     return <div className="footer">
-        <h1>Thanks for visitng employee directory</h1>
+        <h1>Thanks for visiting employee directory</h1>
     </div>
 }
 
