@@ -7,7 +7,7 @@ class Home extends React.Component {
     }
 
     componentDidMount() {
-        this.FAKEAPI().then(response => this.setState({ list: response }))
+        this.APIURL().then(response => this.setState({ list: response }))
     }
 
     handleClick = () => {
@@ -24,7 +24,7 @@ class Home extends React.Component {
         return <div>
             <h1>Count: <span>{this.state.count}</span></h1>
 
-            <button onClick={this.handleClick}>Click</button>
+            <button onClick={this.handleClick}>Employees</button>
 
             <hr />
 

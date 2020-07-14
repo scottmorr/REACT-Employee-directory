@@ -1,11 +1,9 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import './style.css'
-
-function NavBar() {
-    return <div className="navbar">
+function Container() {
+    return <div className="container">
       
-      <h1> Employee Directory</h1>
       
       
        {/*  <Link to="/">Home</Link>
@@ -13,5 +11,4 @@ function NavBar() {
          */}
     </div>
 }
-
-export default NavBar
+export default Container
